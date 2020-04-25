@@ -1,6 +1,7 @@
 def reverse_each_word
-  puts "Hello there, and how are you?"
+  "Hello there, and how are you?"
 end
-reverse_each_word.split |word|
-
+reverse_array = []
+  reverse_each_word.split do |word|
+    reverse_array << reverse_array.reverse
 end
