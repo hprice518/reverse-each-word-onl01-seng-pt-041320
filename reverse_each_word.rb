@@ -6,6 +6,7 @@ reverse_array = []
   reverse_array << hello_array.reverse
   end
   reverse_array.join ("")
+  break
 end
 
 reverse_each_word("Hello there, and how are you?")
