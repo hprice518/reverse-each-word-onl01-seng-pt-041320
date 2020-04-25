@@ -1,1 +1,3 @@
-reverse_each_word("Hello there, and how are you?")
+def reverse_each_word("Hello there, and how are you?")
+  puts reverse_each_word.split
+end
