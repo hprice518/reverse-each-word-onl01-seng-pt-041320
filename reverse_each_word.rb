@@ -2,7 +2,7 @@ def reverse_each_word(hello)
   hello_array = hello.split (" ")
   
 reverse_array = []
-  hello_array.map do |word|
+  hello_array.collect do |hello|
   reverse_array << hello_array.reverse
   end
   reverse_array.join
