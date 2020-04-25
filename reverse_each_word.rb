@@ -1,6 +1,6 @@
 def reverse_each_word(hello)
   hello_array = hello.split ("")
-  
+end
 reverse_array = [ ]
   hello_array.collect do |words| 
     reverse_array << hello_array.reverse
