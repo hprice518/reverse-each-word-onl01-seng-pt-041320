@@ -1,5 +1,6 @@
 def reverse_each_word
   puts "Hello there, and how are you?"
 end
-reverse_each_word.split
+reverse_each_word.split |word|
+
 end
