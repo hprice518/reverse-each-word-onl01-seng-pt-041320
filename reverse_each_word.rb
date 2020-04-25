@@ -1,4 +1,4 @@
-def reverse_each_word
+def reverse_each_word(phrase)
   "Hello there, and how are you?"
 end
 reverse_array = []
