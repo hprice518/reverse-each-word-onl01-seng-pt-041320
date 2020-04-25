@@ -5,7 +5,7 @@ reverse_array = []
   hello_array.collect do |hello|
   reverse_array << hello_array.reverse
   end
-  reverse_array.join
+
 end
 
 reverse_each_word("Hello there, and how are you?")
