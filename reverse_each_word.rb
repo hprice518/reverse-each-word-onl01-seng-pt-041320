@@ -1,9 +1,10 @@
-def reverse_each_word(hello)
-  hello_array = hello.split ("")
+def reverse_each_word(sentence1)
+  sentence1_array = sentence1.split ("")
   
 reverse_array = []
-  hello_array.collect {|hello| reverse_array << hello_array.reverse}
-
+  sentence1_array.collect do |hello| 
+    reverse_array.push << sentence1_array.reverse
+  end
   reverse_array.join ("")
 end
 
