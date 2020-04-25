@@ -3,5 +3,5 @@ def reverse_each_word
 end
 reverse_array = []
   reverse_each_word.split do |word|
-    reverse_array << reverse_array.reverse
+    reverse_array << reverse_each_word.reverse
 end
