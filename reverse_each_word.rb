@@ -1,6 +1,5 @@
 def reverse_each_word(hello)
-
-  hello_split = reverse_each_word.split (" ")
+  hello_array = hello.split (" ")
 
 reverse_array = []
   phrase_split.collect do |word|
