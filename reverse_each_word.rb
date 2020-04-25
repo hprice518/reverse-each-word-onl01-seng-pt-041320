@@ -7,4 +7,4 @@ reverse_array = []
   reverse_array.join ("")
 end
 
-reverse_each_word(hello)
+reverse_each_word("Hello there, and how are you?")
