@@ -1,6 +1,5 @@
-def reverse_each_word
-  "Hello there, and how are you?"
-end
+def reverse_each_word(hello)
+
   phrase_split = reverse_each_word.split (" ")
 
 reverse_array = []
